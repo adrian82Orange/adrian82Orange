@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: coreApi
+
+datasources:
+  default:
+    url: jdbc:tc:postgresql:9.6.8:///databasename
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+
+hedera:
+  accountId: ${HCS_MAIN_ACCOUNT_ID:0.0.28540472}
+  privateKey: ${HCS_MAIN_ACCOUNT_PRIVATE_KEY:302e020100300506032b657004220420f284d8c41cbf70fe44c6512379ff651c6e0e4fe85c300adcd9507a80a0ee3b69}
+

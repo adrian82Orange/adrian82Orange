@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: es.orange.bank
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, gradle, h2, http-client, jackson-databind, java, java-application, jdbc-tomcat, logback, micronaut-build, netty-server, readme, shade, spock, testcontainers, yaml]
